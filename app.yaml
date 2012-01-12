@@ -1,0 +1,17 @@
+application: cryptochat
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /javascript
+  static_dir: javascript
+  secure: always
+
+- url: /css
+  static_dir: css
+  secure: always
+
+- url: /.*
+  script: crypto.py
+  secure: always
