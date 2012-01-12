@@ -1,0 +1,2 @@
+Crypto Chat is a google app engine based chat engine, where all text is encoded via 256-bit AES encryption on the client side using javascript.  You and your
+chatting buddies need to know the name of the chat room and the pass phrase and then you are good to go!

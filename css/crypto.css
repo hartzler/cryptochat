@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana;
+  font-size: 8pt;
+  color: #1E1B17;
+  background: #C7BDA1;
+}
+#page {
+  margin-left: 1em;
+  width: 305px;
+}
+
+#info { background: #577270; padding-bottom: 1em; }
+#info label { margin-left: 1em; }
+#info h2 { margin-left: 1em; margin-top: .0em; margin-bottom: .25em; }
+#info div { margin-left: 1em; text-align: right; padding-right: 2em; }
+
+#bottom {width: 300px;}
+
+#chat { background: #580E0C; color: #C7BDA1; border-top: 1px solid #444; }
+
+#members { margin-top: 1em; margin-bottom: 1em; margin-left: 1em; margin-right: 1em; color: #000; }
+#members-container { background: #C7BDA1; }
+#members-content { padding: 1em; }
+#members h2, #links h2 { margin-left: 10px; padding-top: .25em; margin-top: 0px; margin-bottom: 0em; padding-bottom: 0em; }
+
+#history {
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+#content {
+  height: 200px;
+  overflow: auto;
+  border: 0px solid #444;
+  background: #C7BDA1;
+  color: #1E1B17;
+  padding: 1em;
+}
+
+#links { background: white; margin-top: 5px;}
+#links a { color: #888; }
+#links ul { list-style-type:none; padding: 0em; margin-left: 1em; }
+#links li { list-style-type:none; }
+
+#badge { text-align: center; padding: 1em; }
+
+
+#say { margin-bottom: 1em; }
+#say-text { width: 200px; margin-left: 1em; }
+

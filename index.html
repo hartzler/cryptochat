@@ -1,0 +1,67 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/niftyCorners.css">
+  <link rel="stylesheet" type="text/css" href="css/crypto.css">
+  <script type="text/javascript" src="javascript/aes.js"></script> 
+  <script type="text/javascript" src="javascript/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/nifty.js"></script>
+  <script type="text/javascript" src="javascript/crypto.js"></script>
+</head>
+<body>
+<div id="page">
+
+<h1>Crypto Chat</h1>
+<p>
+Crypto Chat is a google app engine based chat engine, where all text is encoded via 256-bit AES encryption on the client side using javascript.  You and your
+chatting buddies need to know the name of the chat room and the pass phrase and then you are good to go!
+</p>
+
+<div id="bottom">
+
+<div id="info">
+<h2>Setup</h2>
+  <div>
+    <div><label>Alias:</label> <input type="text" name="user" value="{{alias}}" id="user-text"></div>
+    <div><label>Room:</label> <input type="text" name="room" value="{{room}}" id="room-text"></div>
+    <div><label>Passphrase:</label> <input type="password" name="passphrase" id="pass-text"></div>
+  </div>
+</div>
+
+
+<div id="chat">
+  <div id="members">
+    <div id="members-container">
+      <h2>In Room</h2>
+      <div id="members-content"></div>
+    </div>
+  </div>
+
+  <div id="history">
+    <div id="content">Welcome!</div>
+  </div>
+
+  <div id="say">
+    <input id="say-text" type="text" name="say">
+    <button onclick="go();">Send!</button>
+  </div>
+</div>
+
+<div id="links">
+  <h2>Privacy Tools</h2>
+  <div id="links-content">
+    <ul>
+      <li><a href="http://www.torproject.org">Tor</a></li>
+      <li><a href="http://www.gnupg.org">GnuPG</a></li>
+      <li><a href="http://www.movable-type.co.uk/scripts/AES.html">AES JS lib</a>
+    </ul>
+  </div>
+</div>
+
+<div id="badge">
+<img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" alt="Powered by Google App Engine" />
+</div>
+
+</div>
+</div>
+</body>
+</html>

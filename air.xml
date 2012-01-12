@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/1.0"> 
+    <id>com.appspot.cryptochat</id> 
+    <filename>CryptoChat</filename> 
+    <name>CryptoChat</name> 
+    <description>a secure chat application</description> 
+    <version>1.0</version> 
+    
+    <initialWindow> 
+         <content>index.html</content> 
+         <title>CryptoChat</title> 
+         <systemChrome>standard</systemChrome> 
+         <transparent>false</transparent> 
+         <visible>true</visible> 
+         <minimizable>true</minimizable> 
+         <maximizable>true</maximizable> 
+         <resizable>true</resizable> 
+    </initialWindow>
+</application>
